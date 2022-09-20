@@ -3,21 +3,32 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 46.875rem;
+    height: 100vh;
+    background-color: pink;
+}
+
 #app {
-    width: 500px;
-    height: 600px;
-    margin: 50px auto;
-    background: url('./img/bg.jpg');
-    background-size: 100% auto;
+    display: flex;
+    width: 100%;
+    height: 46.875rem;
+    background: url('./img/bg.jpg') no-repeat;
+    background-size: cover;
     background-position: center;
     position: relative;
     border-radius: 5px;
-    
+
 }
 
 .imgGlobal {
     position: absolute;
-    border-radius: 5px;
+    border-radius: .3125rem;
     cursor: pointer;
 }
 
@@ -26,10 +37,65 @@
 }
 
 #storageBox {
-    height: 50px;
-    width: 350px;
+    display: flex;
+    height: 4.125rem;
+    width: 90%;
+    border-radius: .3125rem;
     position: absolute;
-    border-radius: 5px;
-    bottom: 40px;
-    left: 75px;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: rgb(200, 239, 252);
+    height: 4.6875rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    text-align: center;
+    line-height: 4.375rem;
+}
+
+.refresh{
+    width: 30%;
+    background-color: #0f57ff;
+    border-radius: .9375rem;
+    color: #ffffff;
+}
+
+.pattern {
+    width: 30%;
+    background-color: #0f57ff;
+    border-radius: .9375rem;
+    color: #ffffff;
+}
+
+.money {
+    width: 30%;
+    background-color: #0f57ff;
+    border-radius: .9375rem;
+    color: #d81e06;
+}
+
+.icon-shuaxin:before {
+    font-size: 50px;
+}
+.icon-dashang:before {
+    font-size: 50px;
+}
+.icon-xingnaomoshi:before {
+    font-size: 50px;
+}
+/* .modal{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 300px;
+    height: 360px;
+    background-color: blue;
+    z-index: 999;
+} */
+

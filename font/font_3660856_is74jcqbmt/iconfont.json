@@ -1,0 +1,30 @@
+{
+  "id": "3660856",
+  "name": "ikun",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1277",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "7872855",
+      "name": "醒脑模式",
+      "font_class": "xingnaomoshi",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "14593731",
+      "name": "打赏",
+      "font_class": "dashang",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    }
+  ]
+}

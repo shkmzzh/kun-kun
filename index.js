@@ -4,7 +4,7 @@ const $height = 50;
 // 游戏结束
 var gameOver = false;
 // 多少组一组3个
-const BlockNums = 15;
+const BlockNums = 30;
 // 消消乐元素
 const IMGS = [
   "./img/ikun1.jpg",
@@ -353,3 +353,9 @@ function GameValidate() {
     gameOver = true;
   }
 }
+
+// 刷新浏览器
+document.querySelector('.refresh').addEventListener('click',function(){
+  location.reload()
+})
+

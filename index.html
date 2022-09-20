@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./font/font_3660856_is74jcqbmt/iconfont.css">
     <title>鸡了个鸡</title>
   </head>
   <body>
-    <div id="app">
-      <!-- 放置选中的模块 -->
-      <div id="storageBox"></div>
+    <div class="main">
+      <div id="app">
+        <div id="storageBox"></div>
+      </div>
+      <div class="footer">
+        <div class="refresh"><span class="iconfont icon-shuaxin"></span></div>
+        <div class="money"><span class="iconfont icon-dashang"></span></div>
+        <div class="pattern"><span class="iconfont icon-xingnaomoshi"></span></div>
+      </div>
+      <div class="modal"></div>
     </div>
-    <!-- 加载器 主要加载模块 -->
-    <script src="./loader.js"></script>
+    
+    <script src="./index.js"></script>
   </body>
 </html>
