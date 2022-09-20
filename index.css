@@ -38,13 +38,13 @@ body {
 
 #storageBox {
     display: flex;
-    height: 4.125rem;
-    width: 90%;
+    height: 50px;
+    width: 350px;
     border-radius: .3125rem;
     position: absolute;
-    bottom: 1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 40px;
+    left: 75px;
+    /* transform: translateX(-50%); */
 }
 
 .footer {
