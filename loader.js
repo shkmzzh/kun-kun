@@ -7,13 +7,13 @@ var gameOver = false;
 const BlockNums = 15;
 // 消消乐元素
 const IMGS = [
-  "./img/key1.jpeg",
-  "./img/key2.jpeg",
-  "./img/key3.jpeg",
-  "./img/key4.jpeg",
-  "./img/key5.jpeg",
-  "./img/key6.jpeg",
-  "./img/key7.jpeg",
+  "./img/ikun1.jpg",
+  "./img/ikun2.jpg",
+  "./img/ikun3.jpg",
+  "./img/ikun4.jpg",
+  "./img/ikun5.jpg",
+  "./img/ikun6.jpg",
+  "./img/ikun7.jpg",
 ];
 // 计算出 app 模型在 document 的 x,y的坐标
 // 计算出 绘制区域的 x起点  和 y起点
