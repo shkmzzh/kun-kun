@@ -4,11 +4,12 @@ const $height = 50;
 let count 
 var gameOver = false;
 if(!count){
-  count = parseInt(localStorage.getItem('ikun'))
-}else{
   count = 15
+}else{
+  count = parseInt(localStorage.getItem('ikun'))
 }
 console.log(count)
+console.log(!15)
 const BlockNums = count;
 const IMGS = [
   "./img/ikun1.jpg",
