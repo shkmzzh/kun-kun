@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,70 @@
     <title>Document</title>
 </head>
 <style>
-.choice{
-    display: block;
-}
-.difficulty{
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    width: 30rem;
-    height: 370px;
-    background-color: #ffffff;
-    z-index: 99999;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    border-radius:1.25rem;
-}
-.difficulty button{
-    width: 300px;
-    height: 60px;
-    background-color: #0f57ff;
-    border: 1px solid #ccc;
-    font-size: 20px;
-    color: #fff;
-    border-radius:15px;
-}
-.difficulty p{
-    font-size: 20px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    html,
+    body {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .choice {
+        display: block;
+        height: 100vh;
+        margin-top: 45px;
+    }
+    .difficulty {
+        height: 370px;
+        width: 300px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 1.25rem;
+    }
+
+    .difficulty button {
+        width: 250px;
+        height: 60px;
+        background-color: #0f57ff;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .difficulty p {
+        font-size: 20px;
+    }
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+        height: 95px;
+        background-color: #6c96f8; 
+        color: #ffffff;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 5px;
+    }
+    .footer p{
+        margin-top: 5px;
+    }
 
 </style>
+
 <body>
     <div class="choice">
         <div class="difficulty">
@@ -48,8 +81,14 @@
             <button class="hell">地狱模式</button>
         </div>
     </div>
+    <div class="footer">
+        <strong>鸡了个鸡2.0</strong>
+        <p>联系作者QQ:2161626200</p>
+        <p>声明:作者是真爱粉,仅提供技术支持</p>
+    </div>
     <script src="./index.js"></script>
 
 
 </body>
+
 </html>

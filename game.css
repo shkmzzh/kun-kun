@@ -42,7 +42,7 @@ html,body{
 #storageBox {
     display: flex;
     height: 50px;
-    width: 350px;
+    width: 300px;
     border-radius: .3125rem;
     position: absolute;
     bottom: 40px;
@@ -52,7 +52,7 @@ html,body{
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 90%;
     height: 4.6875rem;
     margin: 0 auto;
@@ -92,19 +92,22 @@ html,body{
     font-size: 50px;
 }
 .modal{
-    position: absolute;
-    top: 2%;
+    display: none;
+}
+.modal .mImg{
+   position: absolute;
+    top: 5%;
     left: 50%;
-    width: 30rem;
+    width: 340px;
     height: 370px;
     background-color: #ffffff;
     z-index: 99999;
     transform: translateX(-50%);
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
     border-radius:1.25rem;
-    display: none;
+    box-shadow: 0px 0px 20px #ddd;
 }
 .modal img{
     height: 280px;
@@ -113,6 +116,7 @@ html,body{
 }
 .modal .fail{
     height: 50px;
+    width: 260px;
     background-color: #0f57ff;
     border: 0;
     border-radius: .625rem;
@@ -123,19 +127,23 @@ html,body{
 }
 
 .reward{
+    display: none;
+}
+
+.reward .mImg{
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 50%;
-    width: 30rem;
+    width: 340px;
     height: 370px;
     background-color: #ffffff;
     z-index: 99999;
     transform: translateX(-50%);
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
     border-radius:1.25rem;
-    display: none;
+     box-shadow: 0px 0px 20px #ddd;
 }
 .reward img{
     height: 280px;
@@ -143,31 +151,33 @@ html,body{
    
 }
 .reward .leave{
+    width: 150px;
     height: 45px;
     background-color: #0f57ff;
     border: 0;
     border-radius: .625rem;
     color: #fff;
     font-size: 1.5rem;
-    margin-top: 2px;
+    margin-top: 7px;
 }
 .choice{
     display: none;
 }
 .difficulty{
-    position: absolute;
-    top: 2%;
+     position: absolute;
+    top: 5%;
     left: 50%;
-    width: 30rem;
+    width: 360px;
     height: 370px;
     background-color: #ffffff;
     z-index: 99999;
     transform: translateX(-50%);
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     border-radius:1.25rem;
+     box-shadow: 0px 0px 20px #ddd;
 }
 .difficulty button{
     width: 300px;
@@ -186,7 +196,7 @@ html,body{
     position: absolute;
     top: 2%;
     left: 50%;
-    width: 30rem;
+    width: 28rem;
     height: 370px;
     background-color: #ffffff;
     z-index: 99999;
@@ -209,6 +219,7 @@ html,body{
 }
 .box button{
     height: 50px;
+    width: 125px;
     background-color: #0f57ff;
     border: 0;
     border-radius: .625rem;

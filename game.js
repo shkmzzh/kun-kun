@@ -252,7 +252,7 @@ function randomSort(a, b) {
 
 
 function GameValidate() {
-  if (hasBeenStored.length === 7) {
+  if (hasBeenStored.length === 6) {
     setTimeout(() => {
       getFail()
     }, 225);
@@ -303,15 +303,15 @@ pattern.addEventListener('click', function () {
 
 btn.addEventListener('click', function (e) {
   if (e.target.innerHTML === '简单模式') {
-    localStorage.setItem('ikun', '15')
+    localStorage.setItem('ikun', '5')
     btnHide()
   }
   if (e.target.innerHTML === '困难模式') {
-    localStorage.setItem('ikun', '35')
+    localStorage.setItem('ikun', '25')
     btnHide()
   }
   if (e.target.innerHTML === '地狱模式') {
-    localStorage.setItem('ikun', '100')
+    localStorage.setItem('ikun', '50')
     btnHide()
   }
 })
