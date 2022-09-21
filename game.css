@@ -7,10 +7,13 @@ body {
     display: flex;
     justify-content: center;
 }
+html,body{
+  overflow: hidden;
+  height: 100%;
+}
 
 .main {
     width: 46.875rem;
-    height: 100vh;
     position: relative;
 }
 
@@ -174,6 +177,9 @@ body {
     font-size: 20px;
     color: #fff;
     border-radius:15px;
+}
+.difficulty p{
+    font-size: 20px;
 }
 
 .box{

@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./font/font_3660856_is74jcqbmt/iconfont.css">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <title>🐔鸡了个鸡🐔</title>
-  </head>
-  <body>
-    <div class="main">
-      <div id="app">
-        <div id="storageBox"></div>
-      </div>
-      <div class="footer">
-        <div class="refresh"><span class="iconfont icon-shuaxin"></span></div>
-        <div class="money"><span class="iconfont icon-dashang"></span></div>
-        <div class="pattern"><span class="iconfont icon-xingnaomoshi"></span></div>
-      </div>
-      <div class="modal">
-        <div class="mImg">
-          <img src="./img/money.jpg" alt="">
-          <p></p>
-          <button class="fail">ikun输了哦,重新开始吧</button>
-        </div>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.choice{
+    display: block;
+}
+.difficulty{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    width: 30rem;
+    height: 370px;
+    background-color: #ffffff;
+    z-index: 99999;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius:1.25rem;
+}
+.difficulty button{
+    width: 300px;
+    height: 60px;
+    background-color: #0f57ff;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    color: #fff;
+    border-radius:15px;
+}
+.difficulty p{
+    font-size: 20px;
+}
 
-      <div class="reward">
-        <div class="mImg">
-          <img src="./img/money.jpg" alt="">
-          <p></p>
-          <div>Q:2161626200</div>
-          <button class="leave">残忍的离开</button>
-        </div>
-      </div>
-      <div class="choice">
+</style>
+<body>
+    <div class="choice">
         <div class="difficulty">
-          <button class="simple">简单模式</button>
-          <button class="hard">困难模式</button>
-          <button class="hell">地狱模式</button>
+            <p>🐔《鸡了个鸡》🏀</p>
+            <button class="simple">简单模式</button>
+            <button class="hard">困难模式</button>
+            <button class="hell">地狱模式</button>
         </div>
-      </div>
-
-      <div class="win">
-        <div class="box">
-          <p>恭喜您通关了,坤坤给你送上一个香吻</p>
-          <img src="https://img-blog.csdnimg.cn/bc33716c1cbc4ad3b2405b9baa1cbb66.jpeg" alt="">
-          <button class="btnWin">你干嘛,哎呦</button>
-        </div>
-      </div>
     </div>
-    <audio src="" id="voice" autoplay style="display: none;"></audio>
     <script src="./index.js"></script>
-  </body>
+
+
+</body>
 </html>
