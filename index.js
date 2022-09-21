@@ -8,8 +8,6 @@ if(!count){
 }else{
   count = parseInt(localStorage.getItem('ikun'))
 }
-console.log(count)
-console.log(!15)
 const BlockNums = count;
 const IMGS = [
   "./img/ikun1.jpg",
@@ -353,3 +351,4 @@ function random(){
 }
 document.querySelector('.modal p').innerText=random()
 document.querySelector('.reward p').innerText=random()
+console.log('小黑子,你漏出鸡脚了!')
