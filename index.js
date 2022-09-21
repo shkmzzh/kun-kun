@@ -351,4 +351,5 @@ function random(){
 }
 document.querySelector('.modal p').innerText=random()
 document.querySelector('.reward p').innerText=random()
+
 console.log('小黑子,你漏出鸡脚了!')
