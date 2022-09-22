@@ -303,15 +303,15 @@ pattern.addEventListener('click', function () {
 
 btn.addEventListener('click', function (e) {
   if (e.target.innerHTML === '简单模式') {
-    localStorage.setItem('ikun', '5')
+    localStorage.setItem('ikun', '3')
     btnHide()
   }
   if (e.target.innerHTML === '困难模式') {
-    localStorage.setItem('ikun', '15')
+    localStorage.setItem('ikun', '18')
     btnHide()
   }
   if (e.target.innerHTML === '地狱模式') {
-    localStorage.setItem('ikun', '50')
+    localStorage.setItem('ikun', '45')
     btnHide()
   }
 })
@@ -341,7 +341,7 @@ document.querySelector('.btnWin').addEventListener('click', function () {
 })
 
 function random(){
-  let arr = ['作者想吃哥哥下的蛋,支持一下🏀', '请简单除暴的爱我一分一分赏🐔', '给🐔哥一个面子好不好', '给真ikun一点支持吧🏀', '大爷,赏个鸡子呗🐔', '作者想吃哥哥下的蛋,支持一下🏀', '你的支持就是我的动力🏀','《鸡了个鸡》🐔需要您的支持']
+  let arr = ['作者想吃哥哥下的蛋,支持一下🏀', '请简单粗暴的爱我一分一分赏🐔', '给🐔哥一个面子好不好', '给真ikun一点支持吧🏀', '大爷,赏个鸡子呗🐔', '作者想吃哥哥下的蛋,支持一下🏀', '你的支持就是我的动力🏀','《鸡了个鸡》🐔需要您的支持']
   let dsValue = arr[Math.floor(Math.random() * 7)]
   return dsValue
 }
