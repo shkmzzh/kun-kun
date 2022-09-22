@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🐔鸡了个鸡🐔</title>
+    <link rel="stylesheet" href="./favicon.ico">
 </head>
 <style>
     * {
@@ -83,10 +84,33 @@
     </div>
     <div class="footer">
         <strong>鸡了个鸡2.0</strong>
-        <p>联系作者QQ:2161626200</p>
+        <p>联系作者QQ:3081764857</p>
         <p>声明:作者是真爱粉,仅提供技术支持</p>
     </div>
-    <script src="./index.js"></script>
+    <script>
+        const btn = document.querySelector('.difficulty')
+            const choice = document.querySelector('.choice')
+
+            btn.addEventListener('click', function (e) {
+                if (e.target.innerHTML === '简单模式') {
+                    localStorage.setItem('ikun', '3')
+                    btnHide()
+                }
+                if (e.target.innerHTML === '困难模式') {
+                    localStorage.setItem('ikun', '15')
+                    btnHide()
+                }
+                if (e.target.innerHTML === '地狱模式') {
+                    localStorage.setItem('ikun', '50')
+                    btnHide()
+                }
+            })
+
+            function btnHide() {
+                choice.style.display = 'none'
+                location.href = "./game.html"
+            }
+    </script>
 
 
 </body>
