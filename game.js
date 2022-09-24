@@ -307,7 +307,7 @@ btn.addEventListener('click', function (e) {
     btnHide()
   }
   if (e.target.innerHTML === '困难模式') {
-    localStorage.setItem('ikun', '15')
+    localStorage.setItem('ikun', '18')
     btnHide()
   }
   if (e.target.innerHTML === '地狱模式') {
